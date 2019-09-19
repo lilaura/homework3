@@ -34,7 +34,7 @@ table {
   margin-bottom: 10px;
 }
 .colhead {
-  width: 150px;
+  min-width: 150px;
   padding: 10px;
   color: white;
   text-align: center;
@@ -60,15 +60,15 @@ tr:hover {
   background-color: #fab9cf;
 }
 
-th:first-child {
+thead th:first-child {
   border-radius: 6px 0 0 0;
 }
 
-th:last-child {
+thead th:last-child {
   border-radius: 0 6px 0 0;
 }
 
-th:only-child{
+thead th:only-child{
   border-radius: 6px 6px 0 0;
 }
 
