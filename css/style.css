@@ -8,7 +8,7 @@ body{
   background-color: #dddddd;
 
   min-height:100vh;
-  padding-bottom: 80px;
+  padding-bottom: 75px;
   position:relative;
 }
 
@@ -43,9 +43,11 @@ table {
 }
 
 td, th {
+  padding: 15px;
   text-align: center;
   vertical-align: center;
   border-bottom: solid 2px black;
+  overflow:hidden; white-space:nowrap
 }
 
 tr:last-child td, tr:last-child th{
@@ -93,5 +95,5 @@ footer{
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 10px;
+  padding-top: 15px;
 }
